@@ -1,0 +1,21 @@
+```javascript
+
+const {ThirdPartiesRegistry} = require('@pigalle/registries.thirdparties')
+const {ThirdPartyPlugin} = require('@pigalle/plugins.thirdparty')
+
+// Create a new registry to store third parties.
+const registry = ThirdPartiesRegistry.factory()
+
+// Add express.js to the registry
+registry.set(ThirdPartyPlugin.factory('express'))
+
+// Add restify to the registry
+registry.set('http-backend', ThirdPartyPlugin.factory('restify'))
+
+// Another way to add restify to registry
+registry.set('restify')
+
+// Another way ;-)
+registry.set('http-backend', 'restify')
+
+```
