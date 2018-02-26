@@ -60,6 +60,6 @@ registry.set('http-backend', 'restify')
 
 ***
 
-_Documentation generated on Mon, 26 Feb 2018 09:37:39 GMT_
+_Documentation generated on Mon, 26 Feb 2018 12:24:08 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
