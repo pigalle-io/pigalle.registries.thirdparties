@@ -7,7 +7,6 @@
  *
  */
 
-
 /* eslint-env mocha */
 
 require('should')
